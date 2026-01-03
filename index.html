@@ -22,12 +22,13 @@
         <li><a href="#projects">Projects</a></li>
         <li><a href="#youtube">YouTube</a></li>
         <li><a href="#contact">Contact</a></li>
+    
       </ul>
     </nav>
 
     <section id="home" class="hero">
       <div class="profile-container">
-        <img src="images/profile.jpg" alt="Krishna" class="profile-pic" />
+        <img src="images/profile.png" alt="Krishna" class="profile-pic" />
 
         <div class="badge dsa">Data Science</div>
         <div class="badge python">Python</div>
@@ -39,24 +40,34 @@
       <div class="hero-buttons">
         <a href="#projects" class="btn-main">Explore Work</a>
         <a href="#contact" class="btn-sec">Contact Me</a>
+   <a href="images/Vijay_Resume.pdf" download="Vijay_Singh_Sengar_Resume.pdf" class="btn-sec">
+        <i class="fas fa-download"></i> Download Resume
+    </a>
       </div>
     </section>
 
     <section id="about">
       <h2>About Me</h2>
       <div class="content-box">
-        <p>
-          I’m a learner on the path of <strong>Data Science</strong> and a
-          builder who ships real web apps. I work with
-          <strong>NumPy</strong> and <strong>Pandas</strong> for data work, and
-          write clean scripts to extract stories from data. <br /><br />
-          On the web side, I build with
-          <strong>React, Node.js, and MongoDB Atlas</strong>. Recently, I built
-          a Loan Application and a full E-commerce store. I also specialize in
-          <strong>Prompt Engineering</strong> to make AI models work for
-          production tasks.
-        </p>
-      </div>
+       <div class="content-box">
+  <p>
+    I am a passionate <strong>Data Science Learner</strong> and researcher at heart, 
+    deeply invested in uncovering hidden patterns within complex datasets. My primary focus 
+    lies in mastering <strong>Statistical Analysis</strong> and <strong>Machine Learning</strong>, 
+    using <strong>NumPy and Pandas</strong> as my core tools to clean, manipulate, and 
+    extract meaningful stories from raw data. 
+    <br /><br />
+    To complement my analytical side, I function as an <strong>SDE (Software Development Engineer)</strong>, 
+    building the infrastructure needed to bring data-driven insights to life. I specialize in the 
+    <strong>MERN Stack (React, Node.js, and MongoDB Atlas)</strong> to ship production-ready 
+    applications, such as my recent <strong>Loan Management System</strong> and a full-scale 
+    <strong>E-commerce platform</strong>. 
+    <br /><br />
+    Additionally, I bridge the gap between traditional software and <strong>Generative AI</strong> 
+    through <strong>Prompt Engineering</strong>, ensuring that AI models are optimized for 
+    real-world production tasks and user-centric solutions.
+  </p>
+</div>
     </section>
 
     <section id="skills">
@@ -73,97 +84,68 @@
     </section>
 
     <section id="projects">
-      <h2>Selected Projects</h2>
-      <div class="projects-grid">
+    <h2>Selected Analytical & SDE Work</h2>
+    <br>
+    <div class="projects-grid">
+        
         <div class="project-card">
-          <h3>Loan Application</h3>
-          <p>
-            Full loan management app with user auth, loan request flow, and
-            admin panel.
-          </p>
-          <div class="tech-tags">
-            <span>React</span> <span>Node.js</span> <span>MongoDB</span>
-          </div>
-          <div class="project-links">
-            <a
-              href="https://github.com/Kt10-dev/shikshafinance-frontend"
-              target="_blank"
-              class="btn"
-              ><i class="fab fa-github"></i> Code</a
-            >
-            <a
-              href="https://shikshafinance-frontend.vercel.app"
-              target="_blank"
-              class="btn"
-              ><i class="fas fa-external-link-alt"></i> Live</a
-            >
-          </div>
+            <h3>Fintech Loan Management</h3>
+            <p>Automating student lending with robust risk assessment logic.</p>
+            <div class="tech-tags"><span>MERN</span> <span>JWT</span> <span>Finance</span></div>
+            <div class="project-links">
+                <button class="btn view-details" data-project="loan">Details</button>
+                <a href="https://shikshafinance-frontend.vercel.app/" target="_blank" class="btn"><i class="fas fa-external-link-alt"></i> Live</a>
+            </div>
         </div>
 
         <div class="project-card">
-          <h3>E-commerce Store</h3>
-          <p>
-            Full platform with product management, cart, and checkout. (Sold to
-            Client)
-          </p>
-          <div class="tech-tags">
-            <span>React</span> <span>Redux</span> <span>Express</span>
-          </div>
-          <div class="project-links">
-            <a href="#" class="btn"
-              ><i class="fas fa-check-circle"></i> Client Project</a
-            >
-          </div>
+            <h3>Rao Sahab Wears (Client Project)</h3>
+            <p>A high-performance retail solution delivered and sold to a client.</p>
+            <div class="tech-tags"><span>React</span> <span>Redux</span> <span>Sold</span></div>
+            <div class="project-links">
+                <button class="btn view-details" data-project="retail">Details</button>
+                <a href="https://rao-sahab-wears-oef9.vercel.app/" target="_blank" class="btn"><i class="fas fa-external-link-alt"></i> Live</a>
+            </div>
         </div>
 
         <div class="project-card">
-          <h3>Data-Science Explorer</h3>
-          <p>
-            Interactive demo showcasing arrays, reshape, and indexing for
-            beginners.
-          </p>
-          <div class="tech-tags">
-            <span>Python</span> <span>NumPy</span> <span>Pandas</span>
-          </div>
-          <div class="project-links">
-            <a
-              href="https://github.com/Kt10-dev/NUMPY-Learning"
-              target="_blank"
-              class="btn"
-              ><i class="fab fa-github"></i> Code</a
-            >
-            <a
-              href="https://youtu.be/alGl1iFjHss?si=-vdV3wHgZfWCf_FI"
-              target="_blank"
-              class="btn"
-              ><i class="fab fa-youtube"></i> Demo</a
-            >
-          </div>
+            <h3>Computational Data Analytics</h3>
+            <p>High-performance matrix manipulation and data cleaning logic.</p>
+            <div class="tech-tags"><span>Python</span> <span>NumPy</span> <span>EDA</span></div>
+            <div class="project-links">
+                <button class="btn view-details" data-project="numpy">Details</button>
+                <a href="https://youtu.be/alGl1iFjHss" target="_blank" class="btn"><i class="fab fa-youtube"></i> Demo</a>
+            </div>
         </div>
 
         <div class="project-card">
-          <h3>JS Movie Flix</h3>
-          <p>
-            App consuming TMDB API to show popular movies and play trailers.
-          </p>
-          <div class="tech-tags"><span>JavaScript</span> <span>API</span></div>
-          <div class="project-links">
-            <a
-              href="https://github.com/Kt10-dev/movie-flix"
-              target="_blank"
-              class="btn"
-              ><i class="fab fa-github"></i> Code</a
-            >
-            <a
-              href="https://github.com/Kt10-dev/movie-flix"
-              target="_blank"
-              class="btn"
-              ><i class="fas fa-external-link-alt"></i> Live</a
-            >
-          </div>
+            <h3>Interactive Portfolio (Vijay.Dev)</h3>
+            <p>A modern showcase of technical evolution from SDE to Data Science.</p>
+            <div class="tech-tags"><span>UI/UX</span> <span>JS</span> <span>Vercel</span></div>
+            <div class="project-links">
+                <button class="btn view-details" data-project="portfolio">Details</button>
+                <a href="https://portfolio-my-sigma-five.vercel.app/" target="_blank" class="btn"><i class="fas fa-external-link-alt"></i> Live</a>
+            </div>
         </div>
-      </div>
-    </section>
+
+        <div class="project-card">
+            <h3>Machine Learning Classifier</h3>
+            <p>Predictive modeling using Scikit-Learn to classify complex datasets.</p>
+            <div class="tech-tags"><span>ML</span> <span>Scikit-Learn</span> <span>Pandas</span></div>
+            <div class="project-links">
+                <button class="btn view-details" data-project="ml">Details</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<div id="project-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div id="modal-body"></div>
+    </div>
+</div>
 
     <section id="youtube">
       <h2>My YouTube Channel</h2>
